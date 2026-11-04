@@ -78,7 +78,7 @@
   "subdomains": null,
   "accent_color": "#d4af37",
   "main_background": "#000000",
-  "secondary_background": "#0e1116",
+  "secondary_background": "#16191f",
   "button_background": "#00bda0",
   "button_text_color": "#FFFFFF",
   "text_color": "#FFFFFF",
@@ -248,8 +248,8 @@
       "question": "Is Tiffany Luck Casino licensed and safe for UK players? "
     }
   ],
-  "_generated_at": "2026-11-04T11:18:21.071Z",
+  "_generated_at": "2026-11-04T11:20:23.300Z",
   "_version": "1.0.0",
-  "_last_deploy": "2026-11-04T11:18:21.707Z",
-  "_deploy_trigger": "cn0ms"
+  "_last_deploy": "2026-11-04T11:20:24.007Z",
+  "_deploy_trigger": "ky3dpq"
 }
