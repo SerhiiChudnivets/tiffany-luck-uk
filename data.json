@@ -86,11 +86,11 @@
   "color_main_btn_text": "#FFFFFF",
   "cta_background": "#00bda0",
   "logo": {
-    "url": "/uploads/b312a0158baa5299e929d4ccf8d064c8.webp",
+    "url": "/uploads/212d53287aee9a7c4f7946ceb2c700f4.webp",
     "alt": "tiffanyluck logo"
   },
   "popup_logo": {
-    "url": "/uploads/b312a0158baa5299e929d4ccf8d064c8.webp",
+    "url": "/uploads/212d53287aee9a7c4f7946ceb2c700f4.webp",
     "alt": "tiffanyluck logo"
   },
   "main_background_img": {
@@ -248,8 +248,8 @@
       "question": "Is Tiffany Luck Casino licensed and safe for UK players? "
     }
   ],
-  "_generated_at": "2026-11-04T11:13:22.042Z",
+  "_generated_at": "2026-11-04T11:15:41.160Z",
   "_version": "1.0.0",
-  "_last_deploy": "2026-11-04T11:13:22.737Z",
-  "_deploy_trigger": "817xa4"
+  "_last_deploy": "2026-11-04T11:15:41.811Z",
+  "_deploy_trigger": "6rmqu9"
 }
