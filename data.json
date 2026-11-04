@@ -79,12 +79,12 @@
   "accent_color": "#d4af37",
   "main_background": "#000000",
   "secondary_background": "#0e1116",
-  "button_background": "#2affdf",
+  "button_background": "#00bda0",
   "button_text_color": "#FFFFFF",
   "text_color": "#FFFFFF",
   "color_highlight_text": "#FFFFFF",
   "color_main_btn_text": "#FFFFFF",
-  "cta_background": "#2affdf",
+  "cta_background": "#00bda0",
   "logo": {
     "url": "/uploads/b312a0158baa5299e929d4ccf8d064c8.webp",
     "alt": "tiffanyluck logo"
@@ -106,7 +106,7 @@
     },
     {
       "link": "/play/",
-      "label": "Casino Games",
+      "label": "Games",
       "submenu": [],
       "openInNewTab": false
     },
@@ -153,6 +153,12 @@
       "label": "Cookies Policy",
       "submenu": [],
       "openInNewTab": false
+    },
+    {
+      "link": "/play/",
+      "label": "Terms & Conditions",
+      "submenu": [],
+      "openInNewTab": false
     }
   ],
   "footer_images": [
@@ -165,58 +171,58 @@
   "Slots": [
     {
       "link": "/play/",
-      "logo": "/uploads/aa671f2972c1be72c3cf533d48ae71f0.webp",
-      "name": "Sweet Bonanza Dice",
-      "Name": "Sweet Bonanza Dice",
-      "logo_alt": "sweet bonanza dice"
+      "logo": "/uploads/672a04bafac82bac397c4e5bb773a89f.webp",
+      "name": "Big Bass Bonanza",
+      "Name": "Big Bass Bonanza",
+      "logo_alt": "Big Bass Bonanza"
     },
     {
       "link": "/play/",
-      "logo": "/uploads/bf69dc1de1f959daf8a469e031733dff.webp",
-      "name": "GatesOfOlympus1000",
-      "Name": "GatesOfOlympus1000",
-      "logo_alt": "GatesOfOlympus1000"
+      "logo": "/uploads/498dbf89ecad9e8a4c63a2acc87cb117.webp",
+      "name": "Penalty Shoot",
+      "Name": "Penalty Shoot",
+      "logo_alt": "Penalty Shoot"
     },
     {
       "link": "/play/",
-      "logo": "/uploads/3a977159d4449d04c5b5e93e231f52fe.webp",
-      "name": "Lucky Money",
-      "Name": "Lucky Money",
-      "logo_alt": "lucky money"
+      "logo": "/uploads/205c4d625fda34c8752d432902bc7275.webp",
+      "name": "Big Bass Splash",
+      "Name": "Big Bass Splash",
+      "logo_alt": "big bass splash"
     },
     {
       "link": "/play/",
-      "logo": "/uploads/2419013924fd9ce9a5741c6a80dee5d8.webp",
-      "name": "Wild Wild Pearls",
-      "Name": "Wild Wild Pearls",
-      "logo_alt": "wild wild pearls"
+      "logo": "/uploads/266f409efeba053bbeb20e8ae5943918.webp",
+      "name": "Sea of Spirits",
+      "Name": "Sea of Spirits",
+      "logo_alt": "sea of spirits"
     },
     {
-      "link": "",
-      "logo": "/uploads/25daedf6b4aef875ccf8367c89120d06.webp",
-      "name": "Santas Wonderland",
-      "Name": "Santas Wonderland",
-      "logo_alt": "santas wonderland"
+      "link": "/play/",
+      "logo": "/uploads/67208159a9e5f8396e714ec60dcf5e83.webp",
+      "name": "Stormforged",
+      "Name": "Stormforged",
+      "logo_alt": "stormforged"
     }
   ],
   "Bonuses": [
     {
       "link": "/play/",
-      "logo": "",
-      "name": "Friday Reload Bonus 50% up to €200",
-      "Name": "Friday Reload Bonus 50% up to €200"
+      "logo": "/uploads/5af610ff0f86dfc09cb3567952dcbe63.webp",
+      "name": "Crypto Bonus 100% up to 200 USDT",
+      "Name": "Crypto Bonus 100% up to 200 USDT"
     },
     {
       "link": "/play/",
-      "logo": "",
-      "name": "Weekly Cashback up to 15%",
-      "Name": "Weekly Cashback up to 15%"
+      "logo": "/uploads/4a43b9a7296c93b668abc2ca614faa18.webp",
+      "name": "Sport Bonus 100% deposit up to £100",
+      "Name": "Sport Bonus 100% deposit up to £100"
     },
     {
       "link": "/play/",
-      "logo": "",
-      "name": "Welcome Bonus 525% up to €5,000 + 500 FS",
-      "Name": "Welcome Bonus 525% up to €5,000 + 500 FS"
+      "logo": "/uploads/ff1c9d6802fc3a966361911e4f974172.webp",
+      "name": "Welcome Bonus 430% up to £15,000 + 550 FS",
+      "Name": "Welcome Bonus 430% up to £15,000 + 550 FS"
     }
   ],
   "Reviews": null,
@@ -242,8 +248,8 @@
       "question": "Is Tiffany Luck Casino licensed and safe for UK players? "
     }
   ],
-  "_generated_at": "2026-11-04T11:01:50.885Z",
+  "_generated_at": "2026-11-04T11:13:22.042Z",
   "_version": "1.0.0",
-  "_last_deploy": "2026-11-04T11:01:51.585Z",
-  "_deploy_trigger": "f3thyn"
+  "_last_deploy": "2026-11-04T11:13:22.737Z",
+  "_deploy_trigger": "817xa4"
 }
