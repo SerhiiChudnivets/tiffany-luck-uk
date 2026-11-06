@@ -48,6 +48,7 @@ interface PageData {
   heroImage?: string | MediaFile | MediaFile[] | null
   hero_image?: string | MediaFile | MediaFile[] | null
   cta_text?: string
+  ctaText?: string
   cta_link?: string
   login_text?: string
   register_text?: string
@@ -533,7 +534,8 @@ export default function MinimalTemplate({ page, site }: { page: PageData; site: 
   const heroSubtitle = page.heroSubtitle || page.hero_subtitle || site.heroSubtitle || site.hero_subtitle || ''
   const pageHeroBadge = Object.prototype.hasOwnProperty.call(page, 'heroBadge') ? page.heroBadge : page.hero_badge
   const heroBadge = typeof pageHeroBadge === 'string' ? pageHeroBadge.trim() : ''
-  const ctaText = page.cta_text || site.cta_text || ''
+  const pageCtaText = [page.ctaText, page.cta_text].find((value) => typeof value === 'string' && value.trim())
+  const ctaText = pageCtaText || site.ctaText || site.cta_text || ''
   const redirectLink = page.cta_link || page.redirect_link || site.redirect_link || '/'
   const loginText = page.login_text || site.login_text
   const registerText = page.register_text || site.register_text
@@ -574,7 +576,7 @@ export default function MinimalTemplate({ page, site }: { page: PageData; site: 
   const pagePopupText = [page.popupText, page.popup_text].find((value) => typeof value === 'string' && value.trim())
   const sitePopupText = [site.popupText, site.popup_text].find((value) => typeof value === 'string' && value.trim())
   const popupText = pagePopupText || sitePopupText || page.tagline || site.tagline || ''
-  const popupButtonText = page.get_bonus_btn_text || site.get_bonus_btn_text || ctaText
+  const popupButtonText = pageCtaText || page.get_bonus_btn_text || site.get_bonus_btn_text || ctaText
   const footerImagesSource = Array.isArray(page.footer_images) && page.footer_images.length > 0
     ? page.footer_images
     : Array.isArray(page.footerImages) && page.footerImages.length > 0
